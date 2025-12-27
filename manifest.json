@@ -1,0 +1,23 @@
+
+{
+  "name": "Bot de Números Virtuais para SMS",
+  "short_name": "𝗕𝗢𝗧 𝗦𝗠𝗦 𝗩𝗜𝗥𝗧𝗨𝗔𝗟 𝗕𝗥",
+  "description": "Obtenha seu número virtual para receber SMS online com nosso Bot no Telegram. Ative contas como WhatsApp, Google e mais com segurança e privacidade.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ]
+}

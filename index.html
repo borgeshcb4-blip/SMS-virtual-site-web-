@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+
+    <!-- SEO Meta Tags -->
+    <title>Bot Telegram de Números Virtuais | Receba SMS Online</title>
+    <meta name="description" content="Procurando um Bot no Telegram para números virtuais? Receba SMS online para ativar WhatsApp, Google, iFood e mais. Seguro, privado e instantâneo." />
+    <meta name="keywords" content="bot telegram, número virtual, sms online, receber sms, bot para receber sms, número fake telegram, verificação sms, ativar whatsapp, privacidade online, bot de números" />
+    <meta name="google-site-verification" content="OK3nDYSodTo8hxuYhs_VO6VdEZUObOb3ljCsy4C0LVg" />
+    
+    <!-- PWA and Mobile Meta Tags -->
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="https://iili.io/f5gR8kF.md.png" />
+    
+    <!-- Search Engine Thumbnail -->
+    <meta name="thumbnail" content="https://iili.io/f54D9V4.md.png" />
+    <link rel="image_src" href="https://iili.io/f54D9V4.md.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sms-virtual-bot-telegram.vercel.app/" />
+    <meta property="og:title" content="Bot Telegram de Números Virtuais | Ativação Rápida e Segura" />
+    <meta property="og:description" content="Use nosso Bot no Telegram para obter números virtuais e receber SMS online. Ative qualquer serviço com total privacidade e segurança." />
+    <meta property="og:image" content="https://iili.io/f54D9V4.md.png" />
+    <meta property="og:image:alt" content="Bot SMS Virtual Telegram" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sms-virtual-bot-telegram.vercel.app/" />
+    <meta name="twitter:title" content="Bot Telegram de Números Virtuais | Ativação Rápida e Segura" />
+    <meta name="twitter:description" content="Use nosso Bot no Telegram para obter números virtuais e receber SMS online. Ative qualquer serviço com total privacidade e segurança." />
+    <meta name="twitter:image" content="https://iili.io/f54D9V4.md.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bot de Números Virtuais",
+        "url": "https://sms-virtual-bot-telegram.vercel.app/",
+        "logo": "https://sms-virtual-bot-telegram.vercel.app/maskable-icon.svg",
+        "image": "https://iili.io/f54D9V4.md.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Bot de Números Virtuais para SMS",
+        "applicationCategory": "Utility",
+        "operatingSystem": "Telegram",
+        "image": "https://iili.io/f54D9V4.md.png",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "2580"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "1.00",
+          "priceCurrency": "BRL",
+          "description": "Preço por recebimento de SMS."
+        }
+      }
+    ]
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Simple smooth scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Custom Font Setup */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Sora', sans-serif;
+      }
+      
+      /* Shimmer Effect (Brilho) */
+      @keyframes shimmer {
+        0% { transform: skewX(-20deg) translateX(-150%); }
+        50% { transform: skewX(-20deg) translateX(-150%); }
+        100% { transform: skewX(-20deg) translateX(150%); }
+      }
+      .btn-shimmer {
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-shimmer::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, transparent, rgba(255,255,255,0.4), transparent);
+        transform: skewX(-20deg) translateX(-150%);
+        animation: shimmer 3s infinite;
+      }
+
+      /* Phone Screen Shimmer */
+      .phone-shimmer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+        transform: skewX(-20deg) translateX(-150%);
+        animation: shimmer 3s infinite;
+        z-index: 20;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
