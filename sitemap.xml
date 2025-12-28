@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://sms-virtual-bot-telegram.vercel.app/</loc>
-    <lastmod>2025-12-27</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://sms-virtual-telegram-bot.pages.dev/</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://iili.io/f54D9V4.md.png</image:loc>
+      <image:title>Bot SMS Virtual BR - Números Virtuais Telegram</image:title>
+      <image:caption>Receba SMS online para WhatsApp, Instagram, TikTok e +100 apps</image:caption>
+    </image:image>
   </url>
 </urlset>
