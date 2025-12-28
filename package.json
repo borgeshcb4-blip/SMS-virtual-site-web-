@@ -1,12 +1,13 @@
 {
-  "name": "bot-sms-virtual-functions",
+  "name": "bot-sms-virtual-cloudflare",
   "version": "1.0.0",
-  "description": "Vercel deployment for bot-sms-virtual site",
+  "description": "Cloudflare Pages deployment for bot-sms-virtual site",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -20,6 +21,8 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.3",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "vite-plugin-static-copy": "^2.0.0",
+    "wrangler": "^3.0.0"
   }
 }

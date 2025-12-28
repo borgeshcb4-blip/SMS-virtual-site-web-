@@ -1,6 +1,5 @@
-
 import React from 'react';
-import type { App } from '../types.ts';
+import type { App } from '../types';
 
 export const AppBadge: React.FC<App> = ({ name, color }) => {
   const badgeStyle = {

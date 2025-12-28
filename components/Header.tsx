@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import { NAV_LINKS } from '../constants.tsx';
+import { NAV_LINKS } from '../constants';
 
 type LogoProps = {
   onClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;

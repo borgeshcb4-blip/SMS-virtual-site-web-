@@ -1,14 +1,13 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import { APPS, FEATURES, FAQS, TESTIMONIALS } from './constants.tsx';
-import { AppBadge } from './components/AppBadge.tsx';
-import { FaqItem } from './components/FaqItem.tsx';
-import { FeatureCard } from './components/FeatureCard.tsx';
-import { Header } from './components/Header.tsx';
-import { TestimonialCard } from './components/TestimonialCard.tsx';
-import { HowItWorks } from './components/HowItWorks.tsx';
-import { TermsOfUse } from './components/TermsOfUse.tsx';
-import { PrivacyPolicy } from './components/PrivacyPolicy.tsx';
+import { APPS, FEATURES, FAQS, TESTIMONIALS } from './constants';
+import { AppBadge } from './components/AppBadge';
+import { FaqItem } from './components/FaqItem';
+import { FeatureCard } from './components/FeatureCard';
+import { Header } from './components/Header';
+import { TestimonialCard } from './components/TestimonialCard';
+import { HowItWorks } from './components/HowItWorks';
+import { TermsOfUse } from './components/TermsOfUse';
+import { PrivacyPolicy } from './components/PrivacyPolicy';
 
 const FooterLogo = () => (
   <div className="flex items-center gap-3">
