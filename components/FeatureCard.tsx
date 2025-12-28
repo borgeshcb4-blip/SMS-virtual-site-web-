@@ -1,6 +1,5 @@
-
 import React from 'react';
-import type { Feature } from '../types.ts';
+import type { Feature } from '../types';
 
 export const FeatureCard: React.FC<Feature> = ({ icon, title, description }) => {
   return (
