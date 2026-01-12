@@ -1,5 +1,5 @@
 {
-  "name": "bot-sms-virtual-cloudflare",
+  "name": "sms-virtual-telegram-bot",
   "compatibility_date": "2024-09-23",
   "assets": {
     "directory": "./dist"
