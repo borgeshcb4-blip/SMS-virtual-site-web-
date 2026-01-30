@@ -13,7 +13,7 @@ const FooterLogo = () => (
   <div className="flex items-center gap-3">
     <img 
       src="https://iili.io/f7l0tiF.png" 
-      alt="Logo Bot SMS Virtual" 
+      alt="Logo Bot SMS Virtual - Número Virtual WhatsApp Telegram" 
       className="w-8 h-8 object-contain"
     />
     <span className="font-bold text-lg text-slate-800">𝗕𝗢𝗧 𝗦𝗠𝗦 𝗩𝗜𝗥𝗧𝗨𝗔𝗟 𝗕𝗥</span>

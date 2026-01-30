@@ -62,7 +62,7 @@ export const HowItWorks: React.FC = () => {
                 {/* Screen Content - Image */}
                 <img 
                   src={step.image} 
-                  alt={step.title} 
+                  alt={`Passo ${step.id}: ${step.title} - Número Virtual SMS Online`} 
                   className="w-full h-full object-cover object-top"
                 />
                 {/* Shimmer Effect Overlay */}
